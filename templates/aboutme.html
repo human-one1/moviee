@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>陳咨穎的個人網站</title>
+
+	<style type="text/css">
+		* { 
+			font-family: "標楷體"; }
+
+		header { 
+			font-size: 36px;
+			color: lightpink; }
+
+		.col-lg-4 {
+			border: 1px solid; }
+			
+p:link, p:visited {
+  				background-color: white;
+  				color: black;
+  				border: 2px solid yellow;
+  				padding: 10px 25px;
+  				text-align: center;
+				text-decoration: none;
+  				display: inline-block;
+}
+
+p:hover, p:active {
+  				background-color: yellow;
+  				color: #85653E;
+}
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+	<a class="navbar-brand" href="#">MENU</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#aboutme">關於我</a></li>
+			<li class="nav-item"><a class="nav-link" href="#bookmark">勵志語錄</a></li>
+			<li class="nav-item"><a class="nav-link" href="#youtube">推薦的影片</a></li>
+		</ul>
+	</div>
+	</nav>
+
+	<main class="container-fluid bg-danger text-white text-center">
+
+		<nav>
+			<h1><a href="http://127.0.0.1:5000/" class="text-reset text-decoration-none text-white bg-warning" target="_blank" id="I">陳咨穎 (Zu-Ying Chen) </a></h1>
+			<h2><a href="https://www.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-info" id="PU">靜宜大學</a>
+			 / <a href="https://csim.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-info" id="CSIM">資訊管理學系</a></h2>
+			 <br>
+			<p><h3><a href="http://127.0.0.1:5000/" class="text-reset text-decoration-none text-white bg-info" id="PU">我的求職相關資訊</a> </h3></p>
+		</nav>
+
+		<img src="/static/photo.jpg" alt="照片" width="300" class="img-fluid rounded-star" id="PICTURE"> 
+		<br><br><br>
+
+		<div class="row">
+		
+			<session id="aboutme" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">關於我</header>
+				<h3><font color="#FFDAB9">系級：</font>資訊管理學系二A</h3>
+				<h3><font color="#FFDAB9">學號:</font> 411017569</h3>
+				<h3><a href="mailto:s1101756@gm.pu.edu.tw" class="text-reset text-decoration-none text-black "><font color="#FFDAB9">E-Mail:<br></font>s1101756@gm.pu.edu.tw<br></a></h3>
+		
+			</session>
+
+			<article id="bookmark" class="col-lg-4">
+				<header><a class="text-warning text-decoration-none bg-white">勵志語錄</header> 
+				<h3>當你在休息的時候，別人都在努力</h3>
+				<h3>吃好睡好把生活過好</h3>
+				<h3>仔細觀察會發現世界更多的美好</h3>
+				<h3>擁有夢想只有一種智力，實現夢想才是一種能力</h3>
+				<h3>你怎麼待人，別人就怎麼對你</h3>
+			</article>
+			
+			<aside id="youtube" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">推薦影片</header>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe  src="https://www.youtube.com/embed/z1-tPjVxgns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</aside>
+		</div><br><br>
+		
+		<footer>
+			Copyright ©  陳咨穎. All Rights Reserved.
+		</footer>
+		
+	</main>
+</body>
+</html>
